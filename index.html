@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio - Pau Masague</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <section class="hero">
+    <div class="overlay">
+      <h1>Pau Masague</h1>
+      <p>Desarrollador de Software </p>
+      <a href="#proyectos" class="btn">Ver mis proyectos</a>
+    </div>
+  </section>
+
+  <nav class="navbar">
+    <a href="#proyectos">Proyectos</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="projects" id="proyectos">
+  <h2>🛠️ Mis Proyectos</h2>
+  <br>
+  <div class="projects-container">
+    
+    <div class="card">
+        <h3>💻 Web App de Emotes</h3>
+        <p>Aplicación web desarrollada para practicar con Blazor y .NET.</p>
+        <div class="tags">
+            <span class="tag" style="background-color:#512BD4;">Blazor .NET 6</span>
+            <span class="tag" style="background-color:#d4aa2b;">SQL Server</span>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/paumDev/Emote-Project" target="_blank">Ver código</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>🐶 App Móvil SocialMascoteo</h3>
+        <p>Aplicación móvil desarrollada junto a dos compañeros como trabajo final de una asignatura. Utilizamos Flutter para la app y .NET Framework 4.8 para la API.</p>
+        <div class="tags">
+            <span class="tag" style="background-color:#02899b;">Flutter</span>
+            <span class="tag" style="background-color:#02569B;">C#</span>
+            <span class="tag" style="background-color:#d4aa2b;">SQL Server</span>
+            <span class="tag" style="background-color:#178600;">GitHub</span>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/MauroLRodri/socialmascoteo" target="_blank">Ver código</a>
+            <a href="#" class="open-modal" data-video="https://www.youtube.com/embed/mLZGqzJ4adM">Demo</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>📱 App Móvil Biblioteca</h3>
+        <p>Aplicación móvil creada con .NET 8 MAUI como práctica personal.</p>
+        <div class="tags">
+            <span class="tag" style="background-color:#512BD4;">MAUI .NET 8</span>
+            <span class="tag" style="background-color:#d4cb2b;">SQLite</span>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/paumDev/PalaneoAppMAUI" target="_blank">Ver código</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>🖥️ App de Escritorio Gestión de Datos</h3>
+        <p>Aplicación de escritorio desarrollada junto a dos compañeros con temática Star Wars, orientada a la gestión y visualización de datos.</p>
+        <div class="tags">
+            <span class="tag" style="background-color:#02569B;">C#</span>
+            <span class="tag" style="background-color:#d4aa2b;">SQL Server</span>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/rogerpujollopez/EchoOfRebellion" target="_blank">Ver código</a>
+            <a href="#" class="open-modal" data-video="https://www.youtube.com/embed/vZiL3AuG1uE">Demo</a>
+        </div>
+    </div>
+</div>
+</section>
+
+
+  <section id="habilidades" class="section reveal">
+    <h2>🧠 Habilidades</h2>
+    <div class="skills">
+      <span>Flutter</span>
+      <span>Java</span>
+      <span>C#</span>
+      <span>Python</span>
+      <span>Blazor</span>
+      <span>.NET MAUI</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>SQL / MongoDB</span>
+      <span>Git & GitHub</span>
+      <span>Diseño UI</span>
+    </div>
+  </section>
+
+  <section id="contacto" class="section reveal">
+    <h2>📬 Contacto</h2>
+    <p>¿Quieres ponerte en contacto conmigo?</p>
+    <p><strong>Email:</strong> masaguepau@gmail.com</p>
+    <p><strong>GitHub:</strong> <a href="#">github.com/paumDev</a></p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Pau Masague | Portafolio Personal</p>
+  </footer>
+
+  <div id="video-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <iframe id="modal-video" width="100%" height="400" src="" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+</body>
+</html>
